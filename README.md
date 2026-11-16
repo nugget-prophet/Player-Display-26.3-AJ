@@ -8,7 +8,7 @@ It supports exports from Animated Java (AJ) 1.11.
 
 ## (NEW) Changes in This Fork
 
-- **Improved entity rendering:** Replaced the fragile vertex-number mapping with UV-based mapping in `entity.vsh` and `entity.fsh` to address camera-angle stretching and reduce visual glitches.
+- **Improved entity rendering:** Replaced the vertex-number mapping with UV-based mapping in `entity.vsh` and `entity.fsh` to address camera-angle stretching and reduce visual glitches.
 - **Dynamic player skin support:** Added a function that lets an Animated Java player-display model use the skin of the player executing the function, without requiring a skin macro. See [Using the Animated Java sample datapack](#new-using-the-animated-java-sample-datapack) below.
 
 ## Verification Status
