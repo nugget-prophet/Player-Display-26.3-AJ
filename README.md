@@ -38,6 +38,21 @@ Enable **either** `resourcepack` or `resourcepack_split` as your resource pack (
 
 ## How to Use
 
+### NEW [Sample Datapack] (sample_datapack_for_aj)
+
+#### NEW Summon: animated java model must be summoned with a rotation of (~ 0), 
+```command
+execute rotated ~ 0 run function aj:<project_name>/summon {args: {<input args here>}}
+
+```
+
+### NEW No need to set player skin as a macro when using (sample_datapack_for_aj). Just call the following function to set the nearest player_display animated java to the players skin. Note: this function set the models skin to the player who is calling the funciton. 
+```mcfunction
+
+function pd:set_aj_skin
+
+```
+
 ### [Sample Datapack](sample_datapack)
 
 #### Settings
